@@ -27,7 +27,8 @@ body{
     background-color: var(--clr-light-pink);
     overflow-x: hidden;
     
-    /* min-height: 100vh; */
+    min-height: 100vh;
+    /* width: 100vw; */
 }
 img,
 picture,
@@ -57,7 +58,7 @@ button{
   max-width: 320px;
   display: flex;
   flex-direction: column;
-  margin: 20px auto;
+  margin: 0 auto;
 }
 .btn{
   display: inline-block;
