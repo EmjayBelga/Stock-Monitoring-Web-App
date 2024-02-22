@@ -28,7 +28,7 @@ body{
     overflow-x: hidden;
     
     min-height: 100vh;
-    /* width: 100vw; */
+    min-width: 100vw;
 }
 img,
 picture,
@@ -129,7 +129,7 @@ button{
 .admin__circle{
     background-color: var(--clr-dark-blue);
     border-radius: 0 0 50% 50%;
-    height: 105px;
+    height: 108px;
     width: 100%;
     position: relative;
 }
@@ -137,7 +137,7 @@ button{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 8px;
+    padding: 3px 8px;
     position: relative;
 }
 .admin__main-back{
@@ -163,13 +163,13 @@ button{
     position: absolute;
     padding: 3rem 0.5rem;
     width: 70%;
-    right: -800px;
+    right: -1500px;
     top: 0;
     height: 100vh;
     transition: 0.4s ease-in-out;
 }
 .admin__info.active{
-    right: -2px;
+    right: 0px;
 }
 .admin__info-li{
     color: var(--clr-black);
