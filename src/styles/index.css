@@ -26,9 +26,10 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: var(--clr-light-pink);
     overflow-x: hidden;
+    position: relative;
     
     min-height: 100vh;
-    min-width: 100vw;
+    /* min-width: 100vw; */
 }
 img,
 picture,
@@ -163,13 +164,15 @@ button{
     position: absolute;
     padding: 3rem 0.5rem;
     width: 70%;
-    right: -1500px;
+    /* right: 0; */
+    right: -800px;
     top: 0;
-    height: 100vh;
+    min-height: 100vh;
     transition: 0.4s ease-in-out;
 }
 .admin__info.active{
     right: 0px;
+    /* display: none; */
 }
 .admin__info-li{
     color: var(--clr-black);
