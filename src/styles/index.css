@@ -26,10 +26,7 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: var(--clr-light-pink);
     overflow-x: hidden;
-    position: relative;
-    
     min-height: 100vh;
-    /* min-width: 100vw; */
 }
 img,
 picture,
@@ -158,21 +155,19 @@ button{
     color: var(--clr-dark-blue);
 }
 .admin__info{
+    display: none;
+}
+.admin__info.active{
     display: flex;
     flex-direction: column;
     background-color: #f7b4a4;
     position: absolute;
     padding: 3rem 0.5rem;
     width: 70%;
-    /* right: 0; */
-    right: -800px;
+    right: 0;
     top: 0;
     min-height: 100vh;
-    transition: 0.4s ease-in-out;
-}
-.admin__info.active{
-    right: 0px;
-    /* display: none; */
+    transition: 0.5s ease-in-out;
 }
 .admin__info-li{
     color: var(--clr-black);
